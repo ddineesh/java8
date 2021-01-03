@@ -39,7 +39,8 @@ public class StreamCollectorExamples {
 		
 		//Getting the average Age 
 		
-		Double averageAge=studentlist.stream().collect(Collectors.averagingInt(stu -> stu.getAge()));
+		Double averageAge=studentlist.stream().
+				collect(Collectors.averagingInt(stu -> stu.getAge()));
 		System.out.println(" The aveage age of the students: "+ averageAge);
 	}
 

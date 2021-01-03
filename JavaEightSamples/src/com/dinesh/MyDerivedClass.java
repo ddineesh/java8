@@ -13,7 +13,7 @@ public class MyDerivedClass implements MyDefaultInterface {
     	
     	//calling the default method of interface
         obj.newMethod();     
-        obj.default_method();
+		 obj.default_method(); 
         //calling the static method of interface
         MyDefaultInterface.anotherNewMethod();
         //calling the abstract method of interface

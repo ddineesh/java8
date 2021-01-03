@@ -2,10 +2,10 @@ package com.dinesh.interfaces;
 
 public interface MyDefaultInterface {
 	
-	default void default_method()
-	{
-		System.out.println(" I am also the default method of interface");
-	}
+	
+	  default void default_method() {
+	  System.out.println(" I am also the default method of interface"); }
+	 
 	  default void newMethod(){  
 	        System.out.println("Newly added default method");  
 	    }  
